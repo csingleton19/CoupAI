@@ -92,3 +92,4 @@ I tried to make it as close to a real product as I would have if I had more time
 * Fix the bug where it prints AI Agent cards in the beginning. It is fine when it is AI vs AI, but the human player would have an advantage over it going into a game against them
 * Use asynchronous processing i.e. Gameplay and Messaging could be handled differently - ideally it would be cool to build a UI that shows each player their cards, and has a split screen with a visual of the board/deck + a terminal display that shows the logs + messages
 * Work on the repeated action / invalid action logic - the AI sometimes chooses invalid actions (and repeatedly) so if I had more time I would knock this out first (or second, maybe replacing the model would be better). Either way, those two would be the first things I tackle
+* I would also like to fix the bug where the code will once in a blue moon hang because the model is slow - this effectively means the program needs to be restarted
