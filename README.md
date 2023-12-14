@@ -16,6 +16,8 @@ This is a continuation of a two-part project with the first version being found 
 
 I decided to leave them separate as there were some overall design differences i.e. in the first one, I differentiated between the AIAgent and Human Player in the GameManagement.py file, but I treated them the same in this version. There are other differences too, but I also wanted people to have access to a version that could be run without internet and only Python installed, and one that needs access to the internet + specific imports
 
+I used a custom GPT (powered by GPT4) that you can build in the Explore section (Explore -> Create a GPT), and I also used chat.collectiveai.com too. CollectiveAI is okay, I wouldn't say it is super strong, but definitely a useful tool that helped build out a little of the functionality. It was created by the same person who is heavily involved with LangChain (hwchase17 on ycombinator and github), and seems to have gotten way better over the last few months
+
 ## Set-up
 
 The set-up is pretty straight-forward since I ended up using mostly native Python in VSCode, the only package needed to install is OpenAI. This was done using Python 3.10.11 and OpenAI 1.3.8
@@ -82,7 +84,7 @@ I tried to make it as close to a real product as I would have if I had more time
 ## Limitations
 
 * As I previously mentioned, I think the DaVinci model isn't all that great (or even good) when it comes to this kind of stuff. I think it would be good at text extraction, but it is a little wacky
-* I'm currently out of the country and had my laptop crash before it backed up all of the code. Because of not being in home terriroty, I didn't have access to my other laptops that are already set up with Python ready to go, and the laptop that I did have access to is a lot different - I usually use Linux, which miniconda is pretty easy to set-up and there are no automatic updates, but on this Windows laptop I'm currently on it was exceedingly difficult to set up (I ended up just moving on and setting up Python globally vs in an environment - which I wanted to not do since it isn't mine) - and was also hit with an automatic update mid-setup. Luckily I had some of the code backed up to my google drive, but not all of the changes that I had made from V1 to V1 (or Coup to CoupAI if you go by repo name) made it, so I had to rebuild those systems instead of fixing the bugs I mention in Future Work
+* I'm currently out of the country and had my laptop crash before it backed up all of the code. Because of not being in home terriroty, I didn't have access to my other laptops that are already set up with Python ready to go, and the laptop that I did have access to is a lot different - I usually use Linux, which miniconda is pretty easy to set-up and there are no automatic updates, but on this Windows laptop I'm currently on it was exceedingly difficult to set up (I ended up just moving on and setting up Python globally vs in an environment - which I wanted to not do since it isn't mine) - and was also hit with an automatic update mid-setup. Luckily I had some of the code backed up to my google drive, but not all of the changes that I had made from V1 to V1 (or Coup to CoupAI if you go by repo name) made it, so I had to rebuild those systems instead of fixing the bugs I mention in Future Work to stay within the given time window for this project.
 
 ## Future Work
 
