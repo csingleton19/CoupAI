@@ -16,8 +16,6 @@ This is a continuation of a two-part project with the first version being found 
 
 I decided to leave them separate as there were some overall design differences i.e. in the first one, I differentiated between the AIAgent and Human Player in the GameManagement.py file, but I treated them the same in this version. There are other differences too, but I also wanted people to have access to a version that could be run without internet and only Python installed, and one that needs access to the internet + specific imports
 
-I used a custom GPT (powered by GPT4) that you can build in the Explore section (Explore -> Create a GPT), and I also used chat.collectiveai.com too. CollectiveAI is okay, I wouldn't say it is super strong, but definitely a useful tool that helped build out a little of the functionality. It was created by the same person who is heavily involved with LangChain (hwchase17 on ycombinator and github), and seems to have gotten way better over the last few months
-
 ## Set-up
 
 The set-up is pretty straight-forward since I ended up using mostly native Python in VSCode, the only package needed to install is OpenAI. This was done using Python 3.10.11 and OpenAI 1.3.8
